@@ -70,6 +70,7 @@ h6 {
 body {
   background-color: #221f1f;
   color: #f5f5f1;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -138,8 +139,16 @@ header nav a:hover {
 .trending-item {
   width: 14rem;
   height: 9rem;
-  padding: 20px;
-  background-color: aliceblue;
+  /* padding: px; */
+  /* background-color: aliceblue; */
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.my-list-item:hover,
+.popular-item:hover,
+.trending-item:hover {
+  transform: scale(1.1);
 }
 
 .my-list,
