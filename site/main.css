@@ -180,12 +180,30 @@ footer {
   /* justify-content: space-around; */
   /* flex-wrap: wrap; */
   display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
 }
 
 .footer-links p {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  cursor: pointer;
+  padding-bottom: 12px;
+  color: rgb(105, 101, 102);
 }
 
-/* .footer-links p {
-  padding-left: 200px;
-} */
+.footer-links p:hover {
+  color: #b7b7b4;
+}
+
+.services-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.footer-icon {
+  border: 1px solid #f5f5f1;
+  margin-right: 1rem;
+  height: auto;
+}
