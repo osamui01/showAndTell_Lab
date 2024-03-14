@@ -115,3 +115,77 @@ header nav a:hover {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.carousels {
+  margin-top: 3.5rem;
+}
+
+.my-list-container,
+.popular-container,
+.trending-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 12rem;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+.my-list-item,
+.popular-item,
+.trending-item {
+  width: 14rem;
+  height: 9rem;
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.my-list,
+.popular,
+.trending {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+h3 {
+  padding-left: 4rem;
+  margin-bottom: -1rem;
+}
+
+footer {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25%;
+  padding: 20px;
+}
+
+.footer-links {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-around; */
+  /* flex-wrap: wrap; */
+  display: grid;
+}
+
+.footer-links p {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* .footer-links p {
+  padding-left: 200px;
+} */
