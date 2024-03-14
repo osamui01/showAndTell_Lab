@@ -139,8 +139,8 @@ header nav a:hover {
 .trending-item {
   width: 14rem;
   height: 9rem;
-  padding: 20px;
-  background-color: aliceblue;
+  /* padding: px; */
+  /* background-color: aliceblue; */
 }
 
 .my-list,
