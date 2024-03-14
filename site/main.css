@@ -141,6 +141,14 @@ header nav a:hover {
   height: 9rem;
   /* padding: px; */
   /* background-color: aliceblue; */
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.my-list-item:hover,
+.popular-item:hover,
+.trending-item:hover {
+  transform: scale(1.1);
 }
 
 .my-list,
@@ -190,3 +198,4 @@ footer {
 /* .footer-links p {
   padding-left: 200px;
 } */
+
