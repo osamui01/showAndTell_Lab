@@ -211,8 +211,15 @@ footer {
   padding-right: 20px;
 }
 
-.footer-icon {
+/* .footer-icon {
   border: 1px solid #f5f5f1;
   margin-right: 1rem;
   height: auto;
+} */
+
+.footer-icon {
+  margin-right: 1rem;
+  width: 3rem;
+  height: auto;
+  cursor: pointer;
 }
